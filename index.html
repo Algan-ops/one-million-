@@ -1,63 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/styles.css">
-    <link rel="stylesheet" href="dist/all.css">
-    <title>Document</title>
-
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>One million</title>
 </head>
 <body>
     <header>
-        <nav class="flex flex-row bg-black">
-            <img src="img/top-logo.png" alt="">
-            <ul class="flex flex-row text-white m-50, mx-60">
-                <li>WHO WE ARE</li>
-                <li>GET INVOLVED</li>
-            </ul>
+        <nav  class="flex justify-between items-center bg-black">
+            <img class="p-3 pl-60" src="assets/img/top-logo.png" alt="Logo One million">
+            <div>
+                <div></div>
+                <ul class="flex pr-60">
+                    <li><a class="text-white pr-16 transition-all ease-linear hover:text-red-600" href="">Who we are</a></li>
+                    <li><a class="text-white transition-all ease-linear hover:text-red-600" href="">Get involved</a></li>
+                </ul>
+            </div>
         </nav>
+        <section id="banner" class="text-white text-center flex flex-col justify-center items-center px-32 xl:px-80">
+            <h2 class="text-8xl xl:py-6">Our goal is to inspire Tallahasee to write 1,000,000 lines of code_</h2>
+            <p class="py-6 text-lg">All over the country people are taking the <span class="uppercase font-bold">hour of code</span> challenge issued by <span class="font-bold">CODE.org</span>. Millions of lines of code are being written. In the capital of Florida, Talahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
+            <a href="" class="px-8 py-4 rounded-lg bg-red-600 transition-all ease-linear hover:text-black hover:scale-110">Learn more <i class="fa-solid fa-angles-right"></i></a>
+            <img class="py-6" src="assets/img/code.png" alt="Logo Code">
+        </section>
     </header>
     <main>
-        <section class="flex bg-center w-full justify-center items-center text-center flex-col bg-[url(../img/hero-image.jpg)]">
-            <div class="text-white">
-                <h1>Our goal is to inspire<span class="saut">Tallahassee to write 1,000,000 lines of code_</span></h1>
-                <p>All over the country people are taking the HOUR OF CODE challenge issued by CODE.org. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code.</p>
+        <section class="flex flex-col justify-center items-center text-center py-16 px-32">
+            <img src="assets/img/academy-brand-med.png" alt=""></img>
+            <h2 class="text-red-600 uppercase text-bold text-5xl">Who we are</h2>
+            <div class="bg-red-600 h-0.5 w-48 m-8"></div>
+            <p class="px-32">We are <span class="text-red-600">MASSIVE Academy</span>. We aim to improve education through both methode - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+        </section>
+        <section class="flex flex-col justify-center items-center bg-gray-100 py-16">
+            <h2 class="text-red-600 uppercase text-bold text-5xl">Get involved</h2>
+            <div class="bg-red-600 h-0.5 w-48 m-8"></div>
+            <div class="flex text-center">
+                <div class="flex flex-col justify-center items-center px-4">
+                    <i class="fa-solid fa-user text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Students</h3>
+                    <p class="p-4 px-8">Want to learn how to code ? Want to help us to get to 1,000,000 line ? Click the button below and we'll let you know how to get involved.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-400 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Start Learning <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <i class="fa-solid fa-pencil text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Educators</h3>
+                    <p class="p-4 px-8">Want to bring this initiative to your school or institution ? Awesome ! Click the button below and we'll make it happen.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-400 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Join the initiative <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <i class="fa-regular fa-money-bill-1 text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Sponsors</h3>
+                    <p class="p-4 px-8">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get invilved.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-300 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Give support <i class="fa-solid fa-angles-right"></i></a>
+                </div>
             </div>
-            <a class="text-white bg-textcolor" href="btn">Learn more »</a>
-            <img src="img/code.png" alt="code">
-        </section>
-        <section class="flex justify-center items-center text-center flex-col">
-            <img src="img/academy-brand-med.png" alt="academy">
-            <h2 class=" text-textcolor">WHO WE ARE</h2>
-            <div class="bg-textcolor w-11 h-px"></div>
-            <p>We are <span class="text-textcolor">MASSIVE Academy.</span> We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
-        </section>
-        <h2 class="flex justify-center bg-gray-100">GET INVOLVED</h2>
-        <section class="flex flex-row bg-gray-100">
-            <article class="flex justify-center items-center text-center flex-col">
-                <i class="fa-regular fa-user bg-black"></i>
-                <h3 class="text-textcolor">STUDENTS</h3>
-                <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-                <a class="border bg-white text-textcolor" href="btn">Start Learning »</a>
-            </article>
-            <article class="flex justify-center items-center text-center flex-col">
-                <i class="fa-solid fa-pencil"></i>
-                <h3 class="text-textcolor">EDUCATORS</h3>
-                <p>Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
-                <a class=" border bg-white text-textcolor" href="btn">Start Learning »</a>
-            </article>
-            <article class="flex justify-center items-center text-center flex-col">
-                <i class="fa-regular fa-money-bill-1"></i>
-                <h3 class="text-textcolor">SPONSORS</h3>
-                <p>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
-                <a class="border bg-white text-textcolor" href="btn">Start Learning »</a>
-            </article>
         </section>
     </main>
-    <footer class="bg-textcolor h-72">
-        <img src="img/one-million-bottom-brand.png" alt="">
+    <footer class="bg-red-600 h-64 flex flex-col justify-end items-start">
+        <img class="m-10 ml-64" src="assets/img/one-million-bottom-brand.png" alt="Brand One million">
     </footer>
 </body>
 </html>
